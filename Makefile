@@ -1,4 +1,4 @@
-LUA         = 5.2
+LUA         ?= 5.4
 LUA_CFLAGS  = $(shell pkg-config --cflags lua$(LUA))
 LUA_LIBS    = $(shell pkg-config --libs lua$(LUA))
  
